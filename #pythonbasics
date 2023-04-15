@@ -45,3 +45,4 @@ print(10/2.5) #it will give 4.0
 print(5//2) #it will give quotient,2. 
 print(5%3) #it will give remainder,2. 
 print(5**3) #it means 5 raise to power 3, 5*5*5
+# (Alt+shift+down arrow) is shortcut for VScode to replicate a line.
