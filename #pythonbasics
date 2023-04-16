@@ -9,7 +9,7 @@ pip means install packages .It can be used as a package manager to install the e
 *Using (Ctrl+/ ) you can comment and uncomment to any code base. So, if you have to remove anything , a large part of code etc. ,
 then you can easily remove it by  selecting it & (Ctrl+?) . You can also use triple single-quote mark for multi-line comment.
 '''
-print("hello world")
+print("hello world") #this is a string in this print function,we can also use single quotation instead of double.
 print(6)
 print(18*45) #you can also comment here like this, means even after a code.
 #for multi-line comment, you can also use triple single-quote like this.
@@ -46,3 +46,17 @@ print(5//2) #it will give quotient,2.
 print(5%3) #it will give remainder,2. 
 print(5**3) #it means 5 raise to power 3, 5*5*5
 # (Alt+shift+down arrow) is shortcut for VScode to replicate a line.
+'''
+Type casting: e.g. if a number is written in a string(in double quotes) , then it cannot perform mathematical functions with any other no. 
+e.g. a="3" and b="2", then it will give a+b= 32 .
+so, to tell python interpreter that it is a number,we can typecast it to a number e.g.an integer by using functions ,here 'int' function. so, the conversion 
+of one data type to another data type is k.as. typecasting or type conversion.
+TYPES OF TYPECASTING: (A) Explicit conversion: which is done by programmer manually. It can be acheived with help of python's built-in type conversion 
+functions such as int(),float(),hex(),oct(),str(),etc. e.g. in the above example of a and b as strings , we can take int(a)+int(b) to add number in the 
+strings because by doing this we have converted a and b to int functions .Whatever they were declared before it , now they are integers.
+(B) Implicit type casting: While performing any operations on variable with different data type in python,one of the variable's data type will be changed
+to higher data type by interpreter itself(automatically).e.g. a=9.1,b=10, then a= 19.1 .here b is converted to float 10.0 automtically. float is higher 
+order function than int. So,to prevent data loss, it is preferred.
+ Taking User Input: Syntax is variable= input(" "). But input function returns the value as string. Hence we have to typecast them whenever required to 
+ another datatype.
+ 
