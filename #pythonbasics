@@ -65,5 +65,6 @@ order function than int. So,to prevent data loss, it is preferred.
  (c)replace(): it replaces all occurences of a string with another string. e.g. replace("harry","john") # replace harry with john.
  (d)split(): splits the given string at the specified instance and return the separated strings as list items. Means it converts it into pieces separated
  by comma, of which that string seems to made up of.
+ (e)string.capitalize(): turns the first character of the string to upper case and other to lower case if by mistake, any of them is typed wrong case.
  
  
