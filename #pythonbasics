@@ -59,4 +59,11 @@ to higher data type by interpreter itself(automatically).e.g. a=9.1,b=10, then a
 order function than int. So,to prevent data loss, it is preferred.
  Taking User Input: Syntax is variable= input(" "). But input function returns the value as string. Hence we have to typecast them whenever required to 
  another datatype.
- VIDEO 12
+ * Strings are immutable( unable to change).
+ >> String methods: (a)upper(): syntax is string.upper(), same with lower cases
+ (b)string.rstrip("any character which you have to remove")
+ (c)replace(): it replaces all occurences of a string with another string. e.g. replace("harry","john") # replace harry with john.
+ (d)split(): splits the given string at the specified instance and return the separated strings as list items. Means it converts it into pieces separated
+ by comma, of which that string seems to made up of.
+ 
+ 
