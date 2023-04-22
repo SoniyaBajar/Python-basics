@@ -66,5 +66,9 @@ order function than int. So,to prevent data loss, it is preferred.
  (d)split(): splits the given string at the specified instance and return the separated strings as list items. Means it converts it into pieces separated
  by comma, of which that string seems to made up of.
  (e)string.capitalize(): turns the first character of the string to upper case and other to lower case if by mistake, any of them is typed wrong case.
+ (f)string.centre(): It aligns the string to centre as per the parameters given by the user.
+ (g)string.count(" "): to count how many times a character or word used in the string.
+ (h)string.endswith(""): checks if the string ends with a given value .If yes, then true, otherwise false.
+ 11:10
  
  
