@@ -67,8 +67,14 @@ order function than int. So,to prevent data loss, it is preferred.
  by comma, of which that string seems to made up of.
  (e)string.capitalize(): turns the first character of the string to upper case and other to lower case if by mistake, any of them is typed wrong case.
  (f)string.centre(): It aligns the string to centre as per the parameters given by the user.
- (g)string.count(" "): to count how many times a character or word used in the string.
- (h)string.endswith(""): checks if the string ends with a given value .If yes, then true, otherwise false.
- 11:10
+ (g)string.count(" "): to count how many times a character or word used in the string. It will answer true or false.
+ We can even also check for a value in-between the string by providing start and end index positions.e.g. print(string.endswith("to",4,10)).
+ (h)string.find(""): It searches for the first occurence of the given value and returns the index where it is present(obviously starting with 0).
+ If value absent, then return -1.
+ (i)string.isalnum(): Returns true only if the entire string only consists of alphabetical and numerical values. 
+ If any other punctuation is present, it will return False.
+ (j)string.isalpha()   (K)string.islower()  (L)string.isprintable(): It will give true if all characters are printable and it will give false if any 
+ non-printable character is present in it like back-slash-n etc.
+ (m) string.isspace(): if string contain only space.   (n)string.istitle(): 
  
  
